@@ -1,0 +1,508 @@
+0<!DOCTYPE html>
+<html lang="it" data-default-lang="it">
+
+<head>
+    <!-- Meta dati base -->
+    <title>Michele Traficante | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta SEO -->
+    <meta name="description"
+        content="Ciao, sono Michele Traficante, software developer appassionato di tecnologia e innovazione.">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Michele Traficante | Software developer | Portfolio">
+    <meta property="og:description"
+        content="Ciao, sono Michele Traficante, software developer appassionato di tecnologia e innovazione.">
+    <meta property="og:image" content="./img/io.jpg">
+    <meta property="og:site_name" content="Michele Traficante | Portfolio">
+    <meta name="keywords"
+        content="Michele Traficante, software developer, web, backend, frontend, java, php, python, javascript, typescript, html, css, react, laravel, django, linux" />
+    
+    <!-- Meta SEO Inglese -->
+    <meta name="description" lang="en"
+        content="Hello, I'm Michele Traficante, software developer passionate about technology and innovation.">
+    <meta property="og:title" lang="en" content="Michele Traficante | Software Developer | Portfolio">
+    <meta property="og:description" lang="en"
+        content="Hello, I'm Michele Traficante, software developer passionate about technology and innovation.">
+    <meta name="keywords" lang="en"
+        content="Michele Traficante, software developer, web, backend, frontend, java, php, python, javascript, typescript, html, css, react, laravel, django, linux" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/code.svg" type="image/x-icon">
+
+    <!-- Collegamento al CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome per icone social -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="spinner"></div>
+            <p data-i18n="loading">Caricamento...</p>
+        </div>
+    </div>
+
+    <!-- Contenuto principale -->
+    <main>
+
+        <!-- Sidebar con info personali -->
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <!-- Avatar -->
+                <figure class="avatar-box">
+                    <img src="./img/io.jpg" alt="Michele Traficante" width="80" loading="lazy">
+                </figure>
+
+                <!-- Nome e ruolo -->
+                <div class="info-content">
+                    <h1 class="name" title="Michele Traficante">Michele Traficante</h1>
+                    <p class="title">Developer & Graphic Designer</p>
+                </div>
+
+                <!-- Bottone per mostrare i contatti -->
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span data-i18n="showContacts">Mostra contatti</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <!-- Lista contatti -->
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title" data-i18n="email">Email</p>
+                            <a href="mailto:traficantemichele1650@gmail.com" class="contact-link">traficantemichele1650@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title" data-i18n="phone">Telefono</p>
+                            <a href="tel:+393401506534" class="contact-link">+39 340 1506534</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title" data-i18n="birthDate">Data di nascita</p>
+                            <time datetime="2002-09-06">6 settembre 2002</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title" data-i18n="residence">Dove abito</p>
+                            <address>Rionero in Vulture (PZ), Italia</address>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <!-- Social -->
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://instagram.com/emme.ebbasta" class="social-link" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://t.me/emmeebbasta" class="social-link" target="_blank">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/micheletraficante6510/" class="social-link" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Contenuto principale della pagina -->
+        <div class="main-content">
+
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link="about" data-i18n="about">Chi sono</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="resume" data-i18n="resume">Curriculum</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="contact" data-i18n="contact">Contattami</button>
+                    </li>
+                </ul>
+                
+                <!-- Selettore lingua -->
+                <div class="language-selector">
+                    <button class="language-btn active" data-lang="it">IT</button>
+                    <button class="language-btn" data-lang="en">EN</button>
+                </div>
+            </nav>
+
+            <!-- Sezione Chi sono -->
+            <article id="about" class="about active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title" data-i18n="aboutTitle">Chi sono</h2>
+                </header>
+
+                <section class="about-text">
+                    <p data-i18n="aboutText1">
+                        Mi occupo della gestione e promozione di profili artistici musicali, aiutando talenti emergenti a sviluppare la loro presenza nel panorama digitale. Grazie a strategie di digital marketing, networking e contenuti mirati, supporto gli artisti nell'ottimizzazione della loro visibilità su piattaforme come Spotify e social media.
+                    </p>
+                    <p data-i18n="aboutText2">
+                        Nel corso della mia esperienza lavorativa, ho sviluppato competenze anche nel settore grafico, creando materiali promozionali, copertine e contenuti visivi per campagne digitali.
+                    </p>
+                    <p data-i18n="aboutText3">
+                        Parallelamente, sto ampliando le mie competenze nel settore IT e cybersecurity, con l'obiettivo di unire il mondo della tecnologia alla mia esperienza nella musica e nel marketing digitale.
+                    </p>
+                </section>
+
+                <!-- Cosa faccio -->
+                <section class="service">
+                    <h3 class="h3 service-title" data-i18n="whatIDo">Cosa faccio</h3>
+                    <ul class="service-list">
+                        <li class="service-item" style="--i: 0;">
+                            <div class="service-icon-box">
+                                <img src="./img/monitor.svg" alt="Frontend Development" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title" data-i18n="frontendDev">Frontend Development</h4>
+                                <p class="service-item-text" data-i18n="frontendDesc">
+                                    Creazione di interfacce utente moderne e responsive utilizzando HTML5, CSS3 e JavaScript vanilla.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item" style="--i: 1;">
+                            <div class="service-icon-box">
+                                <img src="./img/code.svg" alt="Web Development" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title" data-i18n="webDev">Web Development</h4>
+                                <p class="service-item-text" data-i18n="webDevDesc">
+                                    Sviluppo di siti web interattivi e dinamici con focus su user experience e design responsive.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item" style="--i: 2;">
+                            <div class="service-icon-box">
+                                <img src="./img/gear.svg" alt="Problem Solving" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title" data-i18n="problemSolving">Problem Solving</h4>
+                                <p class="service-item-text" data-i18n="problemSolvingServiceDesc">
+                                    Risoluzione di problemi tecnici e ottimizzazione del codice per migliorare le performance.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Soft Skills -->
+                <section class="soft-skills">
+                    <h3 class="h3 soft-skills-title" data-i18n="softSkills">Soft Skills</h3>
+                    <ul class="soft-skills-list has-scrollbar">
+                        <li class="soft-skills-item" style="--i: 0;">
+                            <div class="content-card">
+                                <figure class="soft-skills-avatar-box">
+                                    <img src="./img/brain.svg" alt="Fast Learner" width="60">
+                                </figure>
+                                <h4 class="h4 soft-skills-item-title" data-i18n="fastLearner">Imparo velocemente</h4>
+                                <div class="soft-skills-text">
+                                    <p data-i18n="fastLearnerDesc">Acquisisco rapidamente nuove conoscenze e mi adatto ai cambiamenti tecnologici.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="soft-skills-item" style="--i: 1;">
+                            <div class="content-card">
+                                <figure class="soft-skills-avatar-box">
+                                    <img src="./img/users.svg" alt="Teamwork" width="60">
+                                </figure>
+                                <h4 class="h4 soft-skills-item-title" data-i18n="teamwork">Teamwork</h4>
+                                <div class="soft-skills-text">
+                                    <p data-i18n="teamworkDesc">Collaboro a vari progetti e comunico chiaramente con i membri del team.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="soft-skills-item" style="--i: 2;">
+                            <div class="content-card">
+                                <figure class="soft-skills-avatar-box">
+                                    <img src="./img/lightbulb.svg" alt="Problem Solving" width="60">
+                                </figure>
+                                <h4 class="h4 soft-skills-item-title" data-i18n="problemSolving">Problem Solving</h4>
+                                <div class="soft-skills-text">
+                                    <p data-i18n="problemSolvingDesc">Sono creativo ed efficiente nell'individuare e risolvere problemi tecnici.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="soft-skills-item" style="--i: 3;">
+                            <div class="content-card">
+                                <figure class="soft-skills-avatar-box">
+                                    <img src="./img/message-circle.svg" alt="Effective Communication" width="60">
+                                </figure>
+                                <h4 class="h4 soft-skills-item-title" data-i18n="communication">Comunicazione</h4>
+                                <div class="soft-skills-text">
+                                    <p data-i18n="communicationDesc">Ho la capacità di trasmettere idee in modo chiaro e conciso.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Linguaggi e framework -->
+                <section class="technologies">
+                    <h3 class="h3 technologies-title" data-i18n="languages">Linguaggi e framework</h3>
+                    <ul class="technologies-list has-scrollbar">
+                        <li class="technologies-item" style="--i: 0;"><img src="./img/javascript.svg" alt="JavaScript" width="50" height="50"></li>
+                        <li class="technologies-item" style="--i: 1;"><img src="./img/html.svg" alt="HTML" width="50" height="50"></li>
+                        <li class="technologies-item" style="--i: 2;"><img src="./img/css.svg" alt="CSS" width="50" height="50"></li>
+                    </ul>
+                </section>
+
+                <!-- Tecnologie utilizzate -->
+                <section class="technologies">
+                    <h3 class="h3 technologies-title" data-i18n="technologies">Tecnologie utilizzate</h3>
+                    <ul class="technologies-list has-scrollbar">
+                        <li class="technologies-item" style="--i: 0;"><img src="./img/visual-studio-code.svg" alt="VS Code" width="50" height="50"></li>
+                        <li class="technologies-item" style="--i: 1;"><img src="./img/figma.svg" alt="Figma" width="50" height="50"></li>
+                        <li class="technologies-item" style="--i: 2;"><img src="./img/linux.svg" alt="Linux" width="50" height="50"></li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Sezione Curriculum -->
+            <article id="resume" class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title" data-i18n="resumeTitle">Curriculum</h2>
+                </header>
+
+                <!-- Esperienze lavorative -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3" data-i18n="workExperience">Esperienze lavorative</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Principal CEO - BLNT Ent.</h4>
+                            <span>2020 - Presente · 5 anni 7 mesi</span>
+                            <p class="timeline-text" data-i18n="blntDescription">
+                                Siamo un'etichetta discografica indipendente dedicata a scoprire, supportare e promuovere talenti emergenti. Offriamo un approccio personalizzato per valorizzare la creatività degli artisti, accompagnandoli in ogni fase del loro percorso musicale, dalla produzione alla distribuzione.<br><br>
+                                Con una visione innovativa e una passione per la musica, ci impegniamo a costruire connessioni significative tra gli artisti e il loro pubblico.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Serigrafista - Serilar Pubblicità</h4>
+                            <span>nov 2023 - gen 2025 · 1 anno 3 mesi</span>
+                            <p class="timeline-text" data-i18n="serilarSerigrafista">
+                                Dal 1980, uniamo tradizione artigianale e innovazione digitale per offrire soluzioni pubblicitarie su misura. Realizziamo adesivi, banner, targhe, abbigliamento personalizzato, segnaletica e allestimenti grafici per automezzi e insegne. Passione e qualità al servizio dei tuoi progetti.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Operatore grafico - Serilar Pubblicità</h4>
+                            <span>giu 2022 - giu 2023 · 1 anno 1 mese</span>
+                            <p class="timeline-text" data-i18n="serilarOperatore">
+                                Stage formativo presso azienda specializzata in soluzioni pubblicitarie e grafiche personalizzate.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Percorso di studi -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3" data-i18n="education">Percorso di studi</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">ITS Academy Apulia Digital</h4>
+                            <span>ott 2024</span>
+                            <p class="timeline-text" data-i18n="itsDescription">
+                                Diploma Istituto Tecnico e Professionale, Programmazione informatica
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Istituto d'Istruzione Superiore Giustino Fortunato</h4>
+                            <span>set 2016 — giu 2021</span>
+                            <p class="timeline-text" data-i18n="fortunatoDescription">
+                                Diploma Istituto Tecnico e Professionale, Grafica computerizzata
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Certificazioni -->
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3" data-i18n="certifications">Certificazioni</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">IDCERT Dattilografia</h4>
+                            <span>lug 2024</span>
+                            <p class="timeline-text" data-i18n="dattilografiaDesc">
+                                IDCERT | International Digital Certification<br>
+                                ID credenziale: 171938e4-5db3-4f2e-ae5a-8e0625ab6366
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">IDCERT IT Security</h4>
+                            <span>lug 2024</span>
+                            <p class="timeline-text" data-i18n="itSecurityDesc">
+                                IDCERT | International Digital Certification<br>
+                                ID credenziale: 37923adc-7fa5-4c60-835c-2bfb7696b48c
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">IDCERT Digital Competence</h4>
+                            <span>mar 2023</span>
+                            <p class="timeline-text" data-i18n="digitalCompetenceDesc">
+                                IDCERT | International Digital Certification<br>
+                                ID credenziale: b07da170-4334-4a15-b1e6-3a9e157e99c6
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Lingue -->
+                <section class="skill">
+                    <h3 class="h3 skills-title" data-i18n="languagesTitle">Lingue</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5" data-i18n="italian">Italiano</h5>
+                                <data value="100">100%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5" data-i18n="english">Inglese</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5" data-i18n="french">Francese</h5>
+                                <data value="60">60%</data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <br>
+            </article>
+
+            <!-- Sezione Contattami -->
+            <article id="contact" class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title" data-i18n="contactTitle">Contattami</h2>
+                </header>
+
+                <section class="contact-form">
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title" data-i18n="email">Email</p>
+                                <a href="mailto:traficantemichele1650@gmail.com" class="contact-link">traficantemichele1650@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title" data-i18n="phone">Telefono</p>
+                                <a href="tel:+393401506534" class="contact-link">+39 340 1506534</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="separator"></div>
+
+                <!-- Mappa della città -->
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.785591338847!2d15.66813431546568!3d40.92520097931109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1339e8e7e2e2e2e3%3A0x4e8e8e8e8e8e8e8e!2sRionero%20in%20Vulture%2C%20Basilicata%2C%20Italia!5e0!3m2!1sit!2sit!4v1710000000000!5m2!1sit!2sit"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Pulsante Back to Top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Torna all'inizio">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-- Collegamento JS -->
+    <script src="./js/script.js"></script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
